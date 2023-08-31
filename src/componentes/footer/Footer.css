@@ -5,6 +5,8 @@ footer{
     height: 700px;
     background-color: lightpink;
     display: flex;
+    flex-direction:column;
+    justify-content: center;
     
 }
 

@@ -1,10 +1,23 @@
 .filme-content{
-    min-width: 300px;
-    min-height: 200px;
-    background-color: antiquewhite;
+    /* border: 1px solid #d0d0d0; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.1);
+    
 }
 
 .filme-content>img{
-    width: 300px;
+    width: 100%;
     height: auto;
+}
+.sinopse{
+    text-align: justify;
+    font-weight: 400;
+}
+.text-barbie{
+    color: rgb(24, 22, 22);
+    line-height: 1.4rem;
 }
