@@ -1,5 +1,5 @@
 import './Header.css'
-import Link from './../link/Link'
+import Link from './link/Link'
 function Header(){
     return(
         <header>
