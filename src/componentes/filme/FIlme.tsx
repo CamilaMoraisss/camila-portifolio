@@ -1,10 +1,6 @@
 import Imagem from '../img/barbie.png'
 import './Filme.css'
-type FilmeProps = {
-    titulo:string,
-    sinopse:string,
-    imagem:string
-}
+
 
 export default function Filme(props:FilmeProps){
     return(
@@ -16,4 +12,10 @@ export default function Filme(props:FilmeProps){
             </div>
         </div>
     )
+}
+
+type FilmeProps = {
+    titulo:string;
+    sinopse:string;
+    imagem:string
 }
