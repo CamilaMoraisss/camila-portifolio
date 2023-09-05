@@ -1,4 +1,4 @@
-import Imagem from '..//img/barbie (1).png'
+import Imagem from '../img/barbie.png'
 import './Filme.css'
 type FilmeProps = {
     titulo:string,
