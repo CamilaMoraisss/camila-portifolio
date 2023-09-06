@@ -1,7 +1,7 @@
 
 
 
-import Filme from '../filme/Filme1.tsx'
+import Filme from '../filme/Filme.tsx'
 import './Main.css'
 export default function Main(){
     return(
