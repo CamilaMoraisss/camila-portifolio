@@ -38,6 +38,22 @@ export default function Main() {
             descricao:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
             imagem:'/barbie.png'
         },
+
+        {
+            titulo:'IDENTIDADE VISUAL - NITA',
+            descricao:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            imagem:'/barbie.png'
+        },
+        {
+            titulo:'IDENTIDADE VISUAL - NITA',
+            descricao:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            imagem:'/barbie.png'
+        },
+        {
+            titulo:'IDENTIDADE VISUAL - NITA',
+            descricao:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            imagem:'/barbie.png'
+        },
     ]
 
     function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
@@ -46,11 +62,11 @@ export default function Main() {
     }
     return (
         <>
-            <div className="campo_pesquisa">
-                <p>Busque um projeto</p>
+            <div className="campo-pesquisa">
+                <p>Busque um projeto aqui!</p>
                 <input type="text" 
-                       className='botao_pesquisa'
-                       placeholder='Pesquise um Projeto'
+                       className='botao-pesquisa'
+                       placeholder='Pesquise um projeto...'
                        onChange={TrataTexto} />
                 {texto && <p>Resultados Para: {texto} </p>}
             </div>

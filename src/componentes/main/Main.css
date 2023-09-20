@@ -5,15 +5,19 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.campo_pesquisa{
+.campo-pesquisa{
     padding: 15px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.botao_pesquisa{
-    width: auto;
+
+.botao-pesquisa {
+    width: 300px;
     height: 30px;
     border: 1px solid #f0f0f0;
     border-radius: 5px;
-
+    font-size: 15px;
 }
 .botao_pesquisa:focus {
     outline: 1px solid rgb(138, 157, 255);  
