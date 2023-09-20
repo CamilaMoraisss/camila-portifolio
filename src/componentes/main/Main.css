@@ -11,7 +11,10 @@
     justify-content: center;
     flex-direction: column;
 }
-
+.estilo-barra{
+    display: flex;
+    justify-content: center;
+}
 .botao-pesquisa {
     width: 300px;
     height: 30px;
@@ -24,4 +27,37 @@
    }
 .botao_pesquisa.visited {
     outline: 1px solid rgb(138, 157, 255);   
+}
+
+
+.filme-content{
+    min-width: 300px;
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.filme-content>img{
+    width: 300px;
+    height: auto;
+}
+.bg{
+    height: 1000px;
+}
+.textobg{
+    height: 1000px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+p {
+    font-size: 22px;
+    margin: auto;
+   
+}
+.projetos{
+
+display: flex;
+margin-bottom: 50%;
 }

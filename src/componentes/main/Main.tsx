@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Projeto from './../projeto/Projeto'
 import './Main.css'
+import MoraisBg from '..//img/MoraisBg.png'
 type ProjetoType = {
-   
     titulo:string,
     descricao:string,
     imagem:string
@@ -40,7 +40,7 @@ export default function Main() {
         },
 
         {
-            titulo:'IDENTIDADE VISUAL - NITA',
+            titulo:'MEMÓRIA ECOCONSCIENTE',
             descricao:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
             imagem:'/barbie.png'
         },
@@ -62,12 +62,31 @@ export default function Main() {
     }
     return (
         <>
+                 <div style={{backgroundImage:`url(${MoraisBg})`}} className='bg'>
+            <img src="" alt="" />
+            <div className='textobg'>
+                <p>Eu sou uma garota contagiante, gosto de deixar as pessoas felizes, <br />
+            gosto da minha caracterísca sobre sensibilidade, minha base é minha fé em Cristo Jesus. <br />Sou esperançosa, acredito em um mundo melhor. A coisa mais importante pra mim nesse mundo: <br />
+            é a minha família. Eles são meu lar, meus exemplos e inspirações. <br /> Quando gosto de algo me dedico ao máximo, sou uma pessoa amiga e tenho facilidade em perdoar. <br /> 
+            Gosto de pensar que existe a possibilidade de algo novo. <br />
+            Penso que em todo momento há a oportunidade de <br /> crescer, mudar, recomeçar e ser restaurado, basta você querer. <br />
+            Prazer, Camila Morais.</p>
+            </div>
+            <div>
+            <div className=''>
+
+            </div>
+            </div>
+        </div>
+                
             <div className="campo-pesquisa">
                 <p>Busque um projeto aqui!</p>
-                <input type="text" 
+              <div className='estilo-barra'>
+              <input type="text" 
                        className='botao-pesquisa'
                        placeholder='Pesquise um projeto...'
                        onChange={TrataTexto} />
+              </div>
                 {texto && <p>Resultados Para: {texto} </p>}
             </div>
             <main className="content-main">
@@ -84,7 +103,6 @@ export default function Main() {
                     )
                 }
 
-                
        
 
             </main>
