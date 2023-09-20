@@ -15,13 +15,13 @@ export default function Main() {
     const projetos:ProjetoType[] = [
         {
             titulo:'POD ISSO NO IF?',
-            descricao:"Projeto de Extensão de um podcast para o IFMS, desenvolvido pelo professor Diego Barros e algumas alunas e outros professores. ",
-            imagem:'/barbie.png'
+            descricao:"Projeto de Extensão do IFMS em formato de PODCAST! coordenado pelo professor Diego Barros tendo cinco integrantes. Nesse projeto, participei como uma das hosts apresentando muitos episódios e fui coordernadora das mídias socias e comunicação na internet. Sem dúvidas, ajudou muito no desenvolvimento comunicativo e na área de Social Media.",
+            imagem:'/podcast.png'
         },
         {
             titulo:'INICIAÇÃO CIENTÍFICA',
-            descricao:'Esse projeto consiste em um zoenamento agrícola da cana-de-açúcar em cenários de mudanças climáticas no estado do Mato Grosso do Sul. ',
-            imagem:'/KEN.png'
+            descricao:'MEU TCC! Esse projeto foi uma iniciação científica (10/2022 - 10-2023). Orientado pelo professor Guilherme Botega, teve como objetivo principal foi criar um zoneamento climático abrangente para a cana-de-açúcar em todo o estado do Mato Grosso do Sul, impulsionando o país economicamente e fortalecendo a matriz energética do estado, enquanto apoia os produtores no cultivo dessa cultura. ',
+            imagem:'/zoneamento.png'
         },
         {
             titulo:'NAVITRINE',
@@ -80,11 +80,11 @@ export default function Main() {
         </div>
                 
             <div className="campo-pesquisa">
-                <p>Busque um projeto aqui!</p>
+                <p>Busque qualquer coisa aqui!</p>
               <div className='estilo-barra'>
               <input type="text" 
                        className='botao-pesquisa'
-                       placeholder='Pesquise um projeto...'
+                       placeholder='Digite aqui...'
                        onChange={TrataTexto} />
               </div>
                 {texto && <p>Resultados Para: {texto} </p>}

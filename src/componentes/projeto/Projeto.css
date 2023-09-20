@@ -1,6 +1,6 @@
 .projeto-content{
     /* border: 1px solid #d0d0d0; */
-    width: 300px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -9,7 +9,7 @@
     
 }
 .foto_projeto{
-    min-height: 460px;
+    min-height: 375px;
     display: flex;
     align-items: center;
 }

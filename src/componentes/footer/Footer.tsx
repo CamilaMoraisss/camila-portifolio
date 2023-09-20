@@ -24,16 +24,16 @@ return(
     </div>
 
         <div className = "parte2">
-            <p className = "titulo">Serviços</p>
-            <a href="#">Design</a>
-            <a href="#">Social Media</a>
-            <a href="#"> Programação</a>
-            <a href="#"> Comuniucação e Marketing</a>
+            <p className = "titulo">Sobre mim</p>
+            <a href="#">Igreja </a>
+            <a href="#">Projetos </a>
+            <a href="#">Esportes </a>
+            <a href="#">Viagens </a>
 
         </div>
         <div className = "parte3" >
             <p className='titulo'>Conhecimentos</p>
-            <a href="#">E.F </a>
+            <a href="#">Gerais</a>
             <a href="#">Cursos </a>
             <a href="#">Pesquisa e Extensão </a>
             <a href="#">IFMS</a>
@@ -41,11 +41,12 @@ return(
         </div>
 
     <div className='parte4'>
-    <p className='titulo'>Hobbies </p>
-            <a href="#">Igreja </a>
-            <a href="#">Projetos </a>
-            <a href="#">Esportes </a>
-            <a href="#">Viagens </a>
+    <p className='titulo'>Serviços </p>
+            <a href="#">Design</a>
+            <a href="#">Social Media</a>
+            <a href="#"> Programação</a>
+            <a href="#"> Comuniucação e Marketing</a>
+
 
 
     
