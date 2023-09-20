@@ -25,7 +25,7 @@ export default function Main() {
         },
         {
             titulo:'NAVITRINE',
-            descricao:'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
+            descricao:'Projeto desenvolvido por mim e pelos meus colegas, Ellen, Gabriela e Pedro Ribeiro ',
             imagem:'/boneca.jpg'
         },
         {
