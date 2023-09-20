@@ -1,23 +1,28 @@
 body{
-margin: 0px;
-}
-
-header{
-    background-color: lightpink;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10vw;
-    align-items: center;
-}
-header ul{
-    display: flex;
-    list-style: none;
-    gap: 15px;
-}
-header ul li a{
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    border: 1px solid hotpink;
-
-}
+    margin: 0px;
+    font-family: "Sora", "sans-serif";
+    }
+    
+    header{
+        background-color: #f7ffee;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10vw;
+        align-items: center;
+    }
+    header img{
+        height: 100px;
+    }
+    header ul{
+        display: flex;
+        list-style: none;
+        gap: 15px;
+    }
+    header ul li a{
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 15px;
+    
+    }

@@ -1,115 +1,84 @@
-use("bdacademia");
-db.dropDatabase();
-use("bdacademia");
-db.createCollection("personal");
-db.personal.insertMany([
-    {_id:1,
-        nome:"Júlio",
-        salario:3000, 
-        alunos:[
-            {
-                nome:"Tere",
-                idade:28
-            },
-            {
-                nome:"João",
-                idade:34
-            },
-            {
-                nome:"Pedro",
-                idade:60
-            }
+use("db_patissier");
+
+db.createCollection("cake");
+db.cake.insertMany([
+    {   _id: ObjectId(1),
+        nome:"Bolo de Quatro Leites Tradicional",
+        peso:"1kg",
+        preço: 57, 
+        ingredientes:[
+            
+               {nome:"Ovos",quatidade:'4'},
+               {nome:"Trigo",quatidade:'Meia xícara de chá'},
+               {nome:"Leite",quatidade:'100ml'},
+               {nome:"Leite Condensado",quatidade:'1 caixa'},
+               {nome:"Leite em pó",quatidade: '3 colheres'},
+
+            
         ]
     },
-    {_id:2,nome:"Adriano",salario:3000,alunos:[]},
-    {_id:3,nome:"Thaina",salario:4000,alunos:[]}
+
+    {   _id: ObjectId(2),
+        nome:"Bolo de Chocolate",
+        peso:"1kg",
+        preço: 45, 
+        ingredientes:[
+
+            {nome:"Ovos",quatidade:'4'},
+            {nome:"Trigo",quatidade:'Meia xícara de chá'},
+            {nome:"Leite",quatidade:'100ml'},
+            {nome:"Chocolate em pó",quatidade:'4 colheres'},
+
+            
+        ]
+    },
+    {   _id: ObjectId(3),
+        nome:"Bolo de banana",
+        peso:"1kg",
+        preço: 30, 
+        ingredientes:[
+            
+            {nome:"Ovos",quatidade:'4'},
+            {nome:"Trigo",quatidade:'Meia xícara de chá'},
+            {nome:"Leite",quatidade:'100ml'},
+            {nome:"Bananas",quatidade:'5'},
+
+            
+        ]
+    },
+
+    {   _id: ObjectId(4),
+        nome:"Bolo de cenoura",
+        peso:"1kg",
+        preço: 57, 
+        ingredientes:[
+            
+            {nome:"Ovos",quatidade:'4'},
+            {nome:"Trigo",quatidade:'Meia xícara de chá'},
+            {nome:"Leite",quatidade:'100ml'},
+            {nome:"Cenouras",quatidade:'300g'},
+            {nome:"Chocolate em pó",quatidade:'4 colheres'},
+
+
+            
+        ]
+    },
+   
 ])
 
-//Como apagar algum dado de uma collection
-// db.personal.drop() //Apaga uma collection
-// db.personal.find()
+//3- excluir o document cake com ObjectId(1)
+db.cake.deleteOne({ _id: ObjectId(1)});
 
-db.personal.deleteMany({})
+//4- Listar o "nome" e "preço" de todos os bolos.
+db.cake.find({})
 
 
-db.createCollection("treino");
+//5- Listar o "nome" e "preço" de todos os bolos menor ou igual a 70.
 
-db.treino.insertOne(
-    {
-        nome:"Quadriceps",
-        dia: "Segunda",
-        exercicios:[
-            {
-                nome:"Agachamento Livre",
-                serie:5,
-                repeticoes:12,
-                peso:100
-            },
-            {
-                nome:"Leg 45",
-                serie:5,
-                repeticoes:12,
-                peso:200
-            },
-            {
-                nome:"Cadeira Extensora",
-                serie:5,
-                repeticoes:12,
-                peso:104
-            },
-            {
-                nome:"Agachamento Hack",
-                serie:5,
-                repeticoes:12,
-                peso:80
-            }
-        ]
-    }
-)
-db.treino.insertOne(
-    {
-        nome:"Costas",
-        dia: "Terça",
-        exercicios:[
-            {
-                nome:"Barra Fixa",
-                serie:5,
-                repeticoes:6,
-                peso:20
-            },
-            {
-                nome:"Remada Baixa",
-                serie:4,
-                repeticoes:15,
-                peso:60
-            },
-            {
-                nome:"Remada Cavalo",
-                serie:5,
-                repeticoes:12,
-                peso:80
-            },
-            {
-                nome:"Puxada Alta",
-                serie:5,
-                repeticoes:12,
-                peso:70
-            }
-        ]
-    }
-)
 
-use("bdacademia")
-db.treino.updateOne(
-    {_id:ObjectId("64f87051a7459a32d55cb756"),"exercicios.nome":"Puxada Alta"},
-    {
-        $set:{
-            dia:"Terça", 
-            "exercicios.$.serie":4
-            "exercicios.$.repeticoes":15
-            "exercicios.$.peso":80
-           
-        }
-    }
-)
 
+//6- criar uma consulta que, usando o update, mude o nome, peso e acrescente 1 ingrediente no bolo de ObjectId(2);
+
+
+
+//7- criar update que modifique 1 ingrediente de um nome "ovo" e quantidade "3 unidades";

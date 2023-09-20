@@ -1,21 +1,22 @@
 import './Header.css'
 import Link from './link/Link'
+import LogoCamila from '..//img/LogoCamila.png'
+
 function Header(){
     return(
         <header>
             <div>
-                <h1>Logo</h1>
-            </div>
+            <img src= {LogoCamila} alt ="Logo Image" />   </div>
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Home'/>
+                        <Link texto='Início'/>
                     </li>
                     <li>
-                        <Link texto='Notícia'/>
+                        <Link texto='Sobre mim'/>
                     </li>
                     <li>
-                        <Link texto='Sobre'/>
+                        <Link texto='Formações'/>
                     </li>
                     <li>
                         <Link texto='Contato'/>
