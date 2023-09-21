@@ -21,17 +21,18 @@
     font-size: 50px;
 }
 .botao-pesquisa {
-    width: 300px;
-    height: 30px;
-    border: 1px solid #f0f0f0;
+    margin-top:20px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 17px;
 }
-.botao_pesquisa:focus {
-    outline: 1px solid rgb(138, 157, 255);  
+.botao-pesquisa:focus {
+    outline: 1px solid rgb(173, 228, 173);  
    }
-.botao_pesquisa.visited {
-    outline: 1px solid rgb(138, 157, 255);   
+.botao-pesquisa.visited {
+    outline: 1px solid rgb(173, 228, 173);   
 }
 
 
