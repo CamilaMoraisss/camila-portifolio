@@ -47,11 +47,14 @@ color: #000000;
 margin-bottom: 9px;
 }
 
+a:hover{
+ color: #68c576;
+    }
+
+    
 .titulo{
     font-weight: bold;
     font-size: 15px;
     font-family: "Sora", "sans-serif";
     color: #000000;
 }
-
-

@@ -20,7 +20,7 @@ export default function Main() {
         },
         {
             titulo:'INICIAÇÃO CIENTÍFICA',
-            descricao:'MEU TCC! Esse projeto foi uma iniciação científica (10/2022 - 10-2023). Orientado pelo professor Guilherme Botega, teve como objetivo principal foi criar um zoneamento climático abrangente para a cana-de-açúcar em todo o estado do Mato Grosso do Sul, impulsionando o país economicamente e fortalecendo a matriz energética do estado, enquanto apoia os produtores no cultivo dessa cultura. ',
+            descricao:'MEU TCC! Esse projeto foi uma iniciação científica (10/2022 - 10/2023). Orientado pelo professor Guilherme Botega, teve como objetivo principal foi criar um zoneamento climático abrangente para a cana-de-açúcar em todo o estado do Mato Grosso do Sul, impulsionando o país economicamente e fortalecendo a matriz energética do estado, enquanto apoia os produtores no cultivo dessa cultura. ',
             imagem:'/zonemento.png'
         },
         {

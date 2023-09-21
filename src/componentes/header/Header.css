@@ -22,7 +22,9 @@ body{
         padding: 15px;
         text-decoration: none;
         color: rgb(0, 0, 0);
-        border: 2px solid rgb(0, 0, 0);
+        border: 1.5px solid rgb(45, 59, 45);
         border-radius: 15px;
-    
+        cursor:pointer ;
     }
+    
+    

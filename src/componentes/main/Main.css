@@ -11,15 +11,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}.p{
+    font-size: 50px;
 }
 .estilo-barra{
     display: flex;
     justify-content: center;
 }
 
-.p{
-    font-size: 50px;
-}
+
 .botao-pesquisa {
     margin-top:20px;
     width: 500px;
@@ -27,10 +27,13 @@
     border: 1px solid;
     border-radius: 5px;
     font-size: 17px;
+
 }
 .botao-pesquisa:focus {
-    outline: 1px solid rgb(173, 228, 173);  
+    outline: 2px solid rgb(173, 228, 173);  
    }
+
+
 .botao-pesquisa.visited {
     outline: 1px solid rgb(173, 228, 173);   
 }
