@@ -80,7 +80,7 @@ export default function Main() {
         </div>
                 
             <div className="campo-pesquisa">
-                <p>Busque qualquer coisa aqui!</p>
+                <p className='busca'>Busque qualquer coisa aqui!</p>
               <div className='estilo-barra'>
               <input type="text" 
                        className='botao-pesquisa'
