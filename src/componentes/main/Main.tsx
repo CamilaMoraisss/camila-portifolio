@@ -62,24 +62,19 @@ export default function Main() {
     }
     return (
         <>
-                 <div style={{backgroundImage:`url(${MoraisBg})`}} className='bg'>
+        <div style={{backgroundImage:`url(${MoraisBg})`}} className='bg'>
             <img src="" alt="" />
-            <div className='textobg'>
+    <div className='textobg'>
                 <p>Eu sou uma garota contagiante, gosto de deixar as pessoas felizes, <br />
-            gosto da minha caracterísca sobre sensibilidade, minha base é minha fé em Cristo Jesus. <br />Sou esperançosa, acredito em um mundo melhor. A coisa mais importante pra mim nesse mundo: <br />
+            gosto da minha característica sobre sensibilidade, minha base é minha fé em Cristo Jesus. <br />Sou esperançosa, acredito em um mundo melhor. A coisa mais importante pra mim nesse mundo: <br />
             é a minha família. Eles são meu lar, meus exemplos e inspirações. <br /> Quando gosto de algo me dedico ao máximo, sou uma pessoa amiga e tenho facilidade em perdoar. <br /> 
             Gosto de pensar que existe a possibilidade de algo novo. <br />
             Penso que em todo momento há a oportunidade de <br /> crescer, mudar, recomeçar e ser restaurado, basta você querer. <br />
             Prazer, Camila Morais.</p>
-            </div>
-            <div>
-            <div className=''>
-
-            </div>
-            </div>
+    </div>
         </div>
                 
-            <div className="campo-pesquisa">
+        <div className="campo-pesquisa">
                 <p className='busca'>Busque qualquer coisa aqui!</p>
               <div className='estilo-barra'>
               <input type="text" 
@@ -102,10 +97,18 @@ export default function Main() {
                             />
                     )
                 }
-
-       
-
+{/* 
+                <h1 className='h1'>
+                    CARA EU SOU INCRIVEL
+            
+            </h1> */}
+            
             </main>
+
+
+            
+
+
         </>
     )
 }
