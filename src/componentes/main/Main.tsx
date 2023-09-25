@@ -97,16 +97,11 @@ export default function Main() {
                             />
                     )
                 }
-{/* 
-                <h1 className='h1'>
-                    CARA EU SOU INCRIVEL
-            
-            </h1> */}
-            
+
+
             </main>
 
 
-            
 
 
         </>
