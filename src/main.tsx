@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import "./main.css"
 import Header from './componentes/header/Header'
 import Main from './componentes/main/Main'
+import Contato from './componentes/contato/Contato'
+import Footer from './componentes/footer/Footer'
 
 import {
   createBrowserRouter,
@@ -15,24 +17,38 @@ const router = createBrowserRouter([
     element:<>
               <Header/>
               <Main/>
+              <Footer/>
             </>,
   },
-  {
-    path: "/inicio",
-    element: <div>Página de Inicio!</div>,
-  },
+
   {
     path: "/sobremim",
-    element: <div>Página de Sobre mim!</div>,
+    element:<>
+              <Header/>
+              <Main/>
+              <Footer/>
+            </>,
   },
+
   {
     path: "/formacoes",
-    element: <div>Página Formações!</div>,
+    element:<>
+              <Header/>
+              <Main/>
+              <Footer/>
+            </>,
   },
+ 
   {
     path: "/contato",
-    element: <div>Página de Contato!</div>,
+    element:<>
+              <Header/>
+              <Contato/>
+              <Footer/>
+            </>,
   },
+ 
+ 
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
