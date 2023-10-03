@@ -1,5 +1,5 @@
 import './Header.css'
-import Link from './link/Link'
+import LinkNav from '../linknav/LinkNav'
 import LogoCamila from '..//img/LogoCamila.png'
 
 function Header(){
@@ -10,16 +10,17 @@ function Header(){
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Início'/>
+                    <LinkNav url="/" texto='Início'/>       
+                    </li>
+
+                    <li>
+                        <LinkNav url="/sobremim" texto='Sobre Mim'/>
                     </li>
                     <li>
-                        <Link texto='Sobre mim'/>
+                    <LinkNav url="/formacoes" texto='Formações'/>
                     </li>
                     <li>
-                        <Link texto='Formações'/>
-                    </li>
-                    <li>
-                        <Link texto='Contato'/>
+                    <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
