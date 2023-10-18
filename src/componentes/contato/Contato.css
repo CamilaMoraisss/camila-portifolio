@@ -1,0 +1,57 @@
+.Formulario{
+        background-image: url(../img/FundoContato.png);
+        height: 800px;
+        background-color: #b7c2ab;
+        display: flex;
+        padding: 0px 10vw;        
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.nome{
+    padding-right: 180px;
+    border-radius: 7px 0px 7px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    margin-top: 18px;
+    font-family: 'Sora', sans-serif;    
+
+}
+
+.telefone{
+    padding-right: 180px;
+    border-radius: 7px 0px 7px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    margin-top: 18px;
+    font-family: 'Sora', sans-serif;   
+
+}
+.campo-mensagem{
+    padding-right: 180px;
+    border-radius: 7px 0px 7px 0px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    border-style: none;
+    margin-top: 18px;
+    font-family: 'Sora', sans-serif;   
+
+
+}
+.button-envio{
+    font-family: 'Sora', sans-serif;    
+    padding: 20px 150px 20px 150px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-style: none;
+    margin-top: 18px;
+    font-family: 'Sora', sans-serif;  
+    background-color: #1d5237 ;
+    color: aliceblue;
+} 
+
