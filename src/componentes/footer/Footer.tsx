@@ -8,7 +8,7 @@ import Twitter from '..//img/twitter.png'
 export function Footer(){
 
 return(
-    <footer className = "nome"> 
+    <footer> 
 <div className= "parte1">
     <img className= "loguinho" src= {LogoCamila} alt ="" />
     <p className='p'> Aqui você encontra tudo sobre mim.<br />
